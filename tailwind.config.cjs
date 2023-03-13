@@ -12,8 +12,8 @@ module.exports = {
         "gray-100": "#DFCCCC",
         "gray-500": "#5E0000",
         "primary-100": "#FFE1E0",
-        "primary-300": "FFA6A3",
-        "primary-500": "FF6B66",
+        "primary-300": "#FFA6A3",
+        "primary-500": "#FF6B66",
         "secondary-400": "#FFCD58",
         "secondary-500": "#FFC132"
       },
@@ -30,7 +30,7 @@ module.exports = {
         abstractWaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
-      }
+      },
     },
     screens: {
       xs: "480px",
