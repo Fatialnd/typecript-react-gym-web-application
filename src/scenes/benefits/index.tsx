@@ -71,7 +71,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-        
+          variants={container}
         >
           {benefits.map((benefit: BenefitType) => (
             <Benefit
@@ -83,6 +83,30 @@ const Benefits = ({ setSelectedPage }: Props) => {
             />
           ))}
         </motion.div>
+
+        {/* GRAPHIC AND DESCRIBTION*/}
+        <div>
+          {/* GRAPHIC */}
+          <img />
+          {/* DESCRIPTION */}
+          <div>
+            {/* TITLE */}
+            <div className="relative">
+              <div className="before:content-abstractwaves before:absolute before:-top-20 before:-left-20 before:z-[1]">
+                <div>
+                  <HText>
+                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
+                    <span className="text-primary-500">FIT</span>
+                  </HText>
+                </div>
+              </div>
+            </div>
+
+            {/* DESCRIPTION */}
+
+            {/* BUTTON */}
+          </div>
+        </div>
       </motion.div>
     </section>
   );
