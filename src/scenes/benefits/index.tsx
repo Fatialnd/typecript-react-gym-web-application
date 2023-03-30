@@ -8,7 +8,6 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import { Children } from "react";
 import ActionButton from "@/shared/ActionButton";
 
 const benefits: Array<BenefitType> = [
@@ -35,7 +34,7 @@ const benefits: Array<BenefitType> = [
 const container = {
   hidden: {},
   visible: {
-    Transition: { staggerChildren: 0.2 },
+    transition: { staggerChildren: 0.2 },
   },
 };
 type Props = {
